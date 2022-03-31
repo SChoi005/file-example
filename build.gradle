@@ -31,11 +31,14 @@ dependencies {
 
 	https://docs.spring.io/spring-boot/docs/current-SNAPSHOT/reference/htmlsingle/#using-boot-starter 
 	*/
+    compile('org.springframework.boot:spring-boot-starter-data-jpa')
+    compile('mysql:mysql-connector-java')
 	compile('org.projectlombok:lombok:1.18.18')
     annotationProcessor('org.projectlombok:lombok:1.18.18')
 	compile('org.springframework.boot:spring-boot-starter-web')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
     compile('com.fasterxml.jackson.dataformat:jackson-dataformat-csv')
+    compile 'org.apache.commons:commons-csv:1.9.0'
     compile('org.apache.poi:poi:5.2.0')
     compile('org.apache.poi:poi-ooxml:5.2.0')
     /* Web 
