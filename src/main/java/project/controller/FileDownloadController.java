@@ -1,6 +1,7 @@
 package project.controller;
 
 import java.util.List;
+import java.io.IOException;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -20,7 +21,7 @@ public class FileDownloadController{
     FileDownloadService filedownLoadService;
     
     @GetMapping("/csv")
-    public ResponseEntity<byte[]> getUserCsvFile(){
+    public ResponseEntity<byte[]> getUserCsvFile() throws IOException{
         return filedownLoadService.userCsvDownload();
     }
     

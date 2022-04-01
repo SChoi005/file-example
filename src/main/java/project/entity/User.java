@@ -12,6 +12,9 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 
+import lombok.Data;
+
+@Data
 @Entity
 @JsonIgnoreProperties(ignoreUnknown = true)
 @JsonPropertyOrder({"사용자ID","이름","성","메일주소","전화번호","우편번호","주소"})
