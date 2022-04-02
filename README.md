@@ -1,7 +1,3 @@
-# File
-
-## File Upload
-
 ## Rest api File Download ( file created with data from database)
 > First of all, make a header row. 
 and add body rows inserting data. 
