@@ -2,16 +2,24 @@
 
 ## File Upload
 
-## File Download  
-> Download fuction is used in homepage bulletin board, etc.
-First of all, make a header row. and add body rows inserting data. At last, return converting the file to byte[].
+## Rest api File Download ( file created with data from database)
+> First of all, make a header row. 
+and add body rows inserting data. 
+At last, return converting the file to byte[].
 
 ### CSV download (Apache commons-csv)
-> Add compile ('org.apache.commons:commons-csv:1.9.0') in build.gradle. 
+> Add in build.gradle. 
+
+```bash
+compile ('org.apache.commons:commons-csv:1.9.0')
+```
 
 ### Excel download (Apache POI(Poor Obfuscation Implement))
-> Add compile('org.apache.poi:poi:5.2.0'), compile('org.apache.poi:poi-ooxml:5.2.0') in build.gradle.
+> Add in build.gradle. 
+
+```bash
+compile('org.apache.poi:poi:5.2.0'), compile('org.apache.poi:poi-ooxml:5.2.0')
+```
 
 
-
-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
+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
