@@ -14,5 +14,6 @@ compile ('org.apache.commons:commons-csv:1.9.0')
 > Add in build.gradle. 
 
 ```bash
-compile('org.apache.poi:poi:5.2.0'), compile('org.apache.poi:poi-ooxml:5.2.0')
+compile('org.apache.poi:poi:5.2.0')
+compile('org.apache.poi:poi-ooxml:5.2.0')
 ```
