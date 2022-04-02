@@ -39,8 +39,8 @@ dependencies {
 	testCompile('org.springframework.boot:spring-boot-starter-test')
     compile('com.fasterxml.jackson.dataformat:jackson-dataformat-csv')
     compile 'org.apache.commons:commons-csv:1.9.0'
-    compile('org.apache.poi:poi:5.2.0')
-    compile('org.apache.poi:poi-ooxml:5.2.0')
+    compile('org.apache.poi:poi:3.17')
+    compile('org.apache.poi:poi-ooxml:3.17')
     /* Web 
 	compile('org.springframework.boot:spring-boot-starter-data-rest')
 	compile('org.springframework.boot:spring-boot-starter-hateoas')
